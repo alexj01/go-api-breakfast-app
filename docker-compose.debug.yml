@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  go-api-breakfast-app:
+    image: go-api-breakfast-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+        - 3000:3000
