@@ -6,3 +6,4 @@ var (
 func Startup(){
 	indexHandler.registerHandlers()
 }
+
